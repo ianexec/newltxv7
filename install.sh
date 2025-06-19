@@ -6,6 +6,7 @@ apt update
 apt install curl -y
 apt install wget -y
 apt install jq -y
+apt install -y mailutils
 
 NC='\033[0m'
 rbg='\033[41;37m'
