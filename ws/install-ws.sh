@@ -11,11 +11,11 @@ apt install python3-pip -y
 apt install python3-requests -y
 
 if [ ! -f "$file_path" ]; then
-    echo -e "Switching Protocols\nYellow" | sudo tee "$file_path" > /dev/null
+    echo -e "Lunatic Tunneling\nYellow" | sudo tee "$file_path" > /dev/null
     echo "File '$file_path' berhasil dibuat."
 else
     if [ ! -s "$file_path" ]; then
-        echo -e "Switching Protocols\nYellow" | sudo tee "$file_path" > /dev/null
+        echo -e "Lunatic Tunneling\nYellow" | sudo tee "$file_path" > /dev/null
         echo "File '$file_path' kosong dan telah diisi."
     else
         echo "File '$file_path' sudah ada dan berisi data."
