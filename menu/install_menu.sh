@@ -1,6 +1,6 @@
 #!/bin/bash
 
- Mengunduh dan mengekstrak menu.zip
+# Mengunduh dan mengekstrak menu.zip
 apt update -y
 apt install -y unzip
 
