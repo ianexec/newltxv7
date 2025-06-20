@@ -546,6 +546,7 @@ rm ~/.bash_history
 rm -f openvpn
 rm -f key.pem
 rm -f cert.pem
+rm -f udp
 
 clear
 echo -e "${c}┌────────────────────────────────────────────┐${NC}"
